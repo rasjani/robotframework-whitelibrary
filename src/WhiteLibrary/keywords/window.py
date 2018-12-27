@@ -8,7 +8,7 @@ class WindowKeywords(LibraryComponent):
     @keyword
     def attach_window(self, window_title):
         """
-        Attach WhiteLibrary to a window.
+        Attach WhiteLibrary to a window of already attached application.
 
         ``window_title`` is the title of the window.
         """
